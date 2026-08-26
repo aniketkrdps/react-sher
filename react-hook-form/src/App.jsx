@@ -15,7 +15,7 @@ const App = () => {
       {toggle
   ? <RegisterUser setUsers={setUsers}/>
   : (
-      <div className="min-h-screen bg-gray-100 p-6">
+      <div className="min-h-screen bg-gray-100 px-6 py-10">
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {users.length === 0
             ? <p className="col-span-full text-sm text-gray-500 text-center">No users registered yet.</p>
